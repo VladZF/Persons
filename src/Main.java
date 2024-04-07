@@ -63,7 +63,7 @@ public class Main {
                 System.out.println(person);
                 break;
             } catch (DateTimeException e) {
-                System.out.println("ОШИБКА: Некорректная дата");
+                System.out.println("ОШИБКА: " + (e.getMessage().startsWith("Text") ? "Некорректная дата" : e.getMessage()));
                 System.out.print("Введите дату рождения в формате ГГГГ-ММ-ДД: ");
                 birthDateStr = scanner.next().trim();
             }
