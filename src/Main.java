@@ -55,17 +55,17 @@ public class Main {
         }
 
         System.out.print("Введите дату рождения в формате ГГГГ-ММ-ДД: ");
-        String birthDateStr = scanner.next().trim();
+        String dateOfBirth = scanner.next().trim();
 
         do {
             try {
-                Person person = new Person(lastName, firstName, middleName, birthDateStr);
+                Person person = new Person(lastName, firstName, middleName, dateOfBirth);
                 System.out.println(person);
                 break;
             } catch (DateTimeException e) {
                 System.out.println("ОШИБКА: " + (e.getMessage().startsWith("Text") ? "Некорректная дата" : e.getMessage()));
                 System.out.print("Введите дату рождения в формате ГГГГ-ММ-ДД: ");
-                birthDateStr = scanner.next().trim();
+                dateOfBirth = scanner.next().trim();
             }
         } while (true);
 
