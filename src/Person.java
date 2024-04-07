@@ -25,9 +25,14 @@ public class Person {
 
     @Override
     public String toString() {
-        Period period = Period.between(dateOfBirth, LocalDate.now());
-        String age = "Возраст: " + period.getYears() + (period.getYears() % 10 == 1 ? " год" :
-                2 <= period.getYears() % 10 && period.getYears() % 10 <= 4 ? " года" : " лет");
+        int period = Period.between(dateOfBirth, LocalDate.now()).getYears();
+        String age = "Возраст: " + period;
+        if (5 <= period && period <= 20 || period % 10 >= 5 || period % 10 == 0)
+            age += " лет";
+        else if (period % 10 == 1)
+            age += " год";
+        else
+            age += " года";
         String initials = "Фамилия и инициалы: " + lastName + " " + firstName.charAt(0) + "." + middleName.charAt(0);
         String sex = "Пол: " + (isWoman ? "женский" : "мужской");
         return initials + "\n" + age + "\n" + sex;

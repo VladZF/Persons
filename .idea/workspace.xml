@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a13270cd-eb8a-4f39-8e42-d75c1b9f32d6" name="Changes" comment="Initial commit">
+    <list default="true" id="a13270cd-eb8a-4f39-8e42-d75c1b9f32d6" name="Changes" comment="Corrected logs and error messages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,7 @@
       <workItem from="1711116829114" duration="100000" />
       <workItem from="1711186156747" duration="1604000" />
       <workItem from="1712427423682" duration="6901000" />
-      <workItem from="1712512337243" duration="923000" />
+      <workItem from="1712512337243" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -115,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712433912287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corrected logs and error messages">
+      <option name="closed" value="true" />
+      <created>1712513562221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712513562221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Corrected logs and error messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected logs and error messages" />
   </component>
 </project>
